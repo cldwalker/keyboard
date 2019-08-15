@@ -37,7 +37,8 @@ require('keyboard.hyper')
 require('keyboard.markdown')
 -- Prefer MicMute spoon which has mute indicator
 -- require('keyboard.microphone')
-require('keyboard.panes')
+-- Not interested in iTerm panes when I have tmux
+-- require('keyboard.panes')
 -- Doesn't work for me
 -- require('keyboard.super')
 require('keyboard.windows')
