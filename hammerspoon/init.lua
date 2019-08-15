@@ -32,12 +32,14 @@ enableHotkeyForWindowsMatchingFilter = function(windowFilter, hotkey)
 end
 
 require('keyboard.control-escape')
-require('keyboard.delete-words')
+-- require('keyboard.delete-words')
 require('keyboard.hyper')
 require('keyboard.markdown')
-require('keyboard.microphone')
+-- Prefer MicMute spoon which has mute indicator
+-- require('keyboard.microphone')
 require('keyboard.panes')
-require('keyboard.super')
+-- Doesn't work for me
+-- require('keyboard.super')
 require('keyboard.windows')
 
 hs.notify.new({title='Hammerspoon', informativeText='Ready to rock 🤘'}):send()
