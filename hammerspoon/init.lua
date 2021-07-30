@@ -39,8 +39,6 @@ require('keyboard.markdown')
 -- require('keyboard.microphone')
 -- Not interested in iTerm panes when I have tmux
 -- require('keyboard.panes')
--- Doesn't work for me
--- require('keyboard.super')
 require('keyboard.windows')
 
 hs.notify.new({title='Hammerspoon', informativeText='Ready to rock 🤘'}):send()
