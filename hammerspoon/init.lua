@@ -35,8 +35,6 @@ require('keyboard.control-escape')
 -- require('keyboard.delete-words')
 require('keyboard.hyper')
 require('keyboard.markdown')
--- Prefer MicMute spoon which has mute indicator
--- require('keyboard.microphone')
 -- Not interested in iTerm panes when I have tmux
 -- require('keyboard.panes')
 require('keyboard.windows')
