@@ -12,7 +12,6 @@ openOrFocusChrome = function()
 end
 
 return {
-  { 'a', 'Atom Beta' },         -- "A" for "Atom"
   { 'b', openOrFocusChrome },   -- "B" for "Browser"
   { 'c', 'Visual Studio Code' },-- "C for Code
   { 'E', 'Electron' },          -- "E for ...
